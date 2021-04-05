@@ -1,0 +1,9 @@
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibraryData\bin\Debug\netcoreapp2.0\UniLibraryData.deps.json
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibraryData\bin\Debug\netcoreapp2.0\UniLibraryData.dll
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibraryData\obj\Debug\netcoreapp2.0\UniLibraryData.csproj.CoreCompileInputs.cache
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibraryData\obj\Debug\netcoreapp2.0\UniLibraryData.AssemblyInfoInputs.cache
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibraryData\obj\Debug\netcoreapp2.0\UniLibraryData.AssemblyInfo.cs
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibraryData\obj\Debug\netcoreapp2.0\UniLibraryData.csprojResolveAssemblyReference.cache
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibraryData\bin\Debug\netcoreapp2.0\UniLibraryData.pdb
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibraryData\obj\Debug\netcoreapp2.0\UniLibraryData.dll
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibraryData\obj\Debug\netcoreapp2.0\UniLibraryData.pdb

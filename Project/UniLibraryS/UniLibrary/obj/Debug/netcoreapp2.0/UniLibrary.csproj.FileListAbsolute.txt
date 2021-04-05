@@ -1,0 +1,16 @@
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\bin\Debug\netcoreapp2.0\UniLibrary.deps.json
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\bin\Debug\netcoreapp2.0\UniLibrary.runtimeconfig.json
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\bin\Debug\netcoreapp2.0\UniLibrary.runtimeconfig.dev.json
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\bin\Debug\netcoreapp2.0\UniLibrary.dll
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\bin\Debug\netcoreapp2.0\UniLibrary.pdb
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\obj\Debug\netcoreapp2.0\UniLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\obj\Debug\netcoreapp2.0\UniLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\obj\Debug\netcoreapp2.0\UniLibrary.AssemblyInfoInputs.cache
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\obj\Debug\netcoreapp2.0\UniLibrary.AssemblyInfo.cs
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\obj\Debug\netcoreapp2.0\UniLibrary.dll
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\obj\Debug\netcoreapp2.0\UniLibrary.pdb
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\bin\Debug\netcoreapp2.0\UniLibraryData.dll
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\bin\Debug\netcoreapp2.0\UniLibraryData.pdb
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\obj\Debug\netcoreapp2.0\UniLibrary.csproj.CopyComplete
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\bin\Debug\netcoreapp2.0\UniLibraryServices.dll
+C:\Users\Oybek Artikov\Desktop\Project\UniLibraryS\UniLibrary\bin\Debug\netcoreapp2.0\UniLibraryServices.pdb

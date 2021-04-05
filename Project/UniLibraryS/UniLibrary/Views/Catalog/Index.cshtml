@@ -1,0 +1,34 @@
+﻿@model UniLibrary.Models.Catalog.KnigaIndexModel
+
+
+<div id="knigas">
+    <h3>Library Catalog</h3>
+    <div id="knigasTable">
+        <table class="table table-condensed" id="catalogIndexTable">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Dewey Call Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var kniga in Model.Knigas)
+                {
+                    <tr class="knigaRow">
+                        <td class="">
+                            <a asp-controller="Catalog" asp-action="Detail" asp-route-id="@kniga.Id">
+                                <img src="@kniga.ImageUrl" class="imageCell" />
+                            </a>
+                            
+                        </td>
+                        <td class="">@kniga.Title</td>
+                        <td class="">@kniga.Author</td>
+                        <td class="">@kniga.DeweyCallNumber</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
