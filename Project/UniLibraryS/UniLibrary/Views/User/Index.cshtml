@@ -1,0 +1,36 @@
+﻿@model UniLibrary.Models.User.UserIndexModel
+@{ 
+    ViewBag.Title = "User Index";
+}
+<h3>@ViewBag.Title</h3>
+<div id="userIndex">
+    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp customTable" id="userIndexTable"> 
+        <thead>
+            <tr>
+                <th>Profile Link</th>
+                <th>Last Name</th>
+                <th>First Name</th>
+                <th>Id card</th>
+                <th>Overdue Fees</th>
+                <th>Home Library</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var user in Model.Users)
+            {
+                <tr>
+                    <td>
+                    <a asp-controller="User" asp-action="Detail" asp-route-id="@user.Id">(Profile)</a>
+                    </td>
+                    <td>@user.LastName</td>
+                    <td>@user.FirstName</td>
+                    <td>@user.IdCardId</td>
+                    <td>@user.OverdueFees</td>
+                    <td>@user.MainLibraryBranch</td>
+                </tr>
+
+            }
+        </tbody>
+        
+    </table>
+</div>

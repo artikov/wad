@@ -1,0 +1,87 @@
+﻿@model UniLibrary.Models.User.UserDetailModel
+
+<div class="container">
+    <div class="page-header clearfix detailHeading">
+        <h2 class="text-muted">User Info</h2>
+    </div>
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-4">
+                <div>
+                    <h2>@Model.FullName</h2>
+                    <div class="userContact">
+                        <div id="userTel"> ID Card: @Model.IdCardId</div>
+                        <div id="userAddress"> Address: @Model.Address</div>
+                        <div id="userTel"> Phone: @Model.Phone</div>
+                        <div id="userDate"> Member Since: @Model.MemberSince</div>
+                        <div id="userLibrary"> Main Library: @Model.MainLibraryBranch</div>
+                        @if (Model.OverdueFees > 0)
+                        {
+                            <div id="userHasFees">Current Fees: $@Model.OverdueFees</div>
+
+                        }
+                        else
+                        {
+                            <div id="userNoFees">No Fees</div>
+
+                        }
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4>Currentley checked out books:</h4>
+                @if (@Model.KnigasCheckedOut.Any())
+                {
+                    <div id="userKnigas">
+                        <ul>
+                            @foreach(var checkout in @Model.KnigasCheckedOut)
+                            {
+                            <li>
+                                @checkout.LibraryBook.Title - (Book Id:@checkout.LibraryBook.Id)
+                                <ul>
+                                    <li>Since: @checkout.Since</li>
+                                    <li>
+                                        Due: @checkout.Until
+                                    </li>
+                                </ul>
+                            </li>
+
+
+                            }
+                        </ul>
+                    </div>
+
+                }
+                else
+                {
+                    <div>No items currently checked out.</div>
+
+                }
+
+            </div>
+            <div class="col-md-4">
+                <h4>Books on hold</h4>
+                @if (Model.Reserves.Any())
+                {
+                    <div id="userHolds">
+                        <ul>
+                            @foreach (var hold in @Model.Reserves)
+                            {
+
+                            <li>@hold.LibraryBook.Title - Placed @hold.HoldPlaced.ToString("yy-dd-MM - HH:mm")</li>
+
+                            }
+                        </ul>
+                    </div>
+
+                }
+                else
+                {
+                    <div>Nothing reserved</div>
+
+                }
+            </div>
+        </div>
+    </div>
+</div>
