@@ -1,0 +1,62 @@
+﻿@model UniLibrary.Models.Branch.BranchDetailModel
+
+@{ 
+    ViewBag.Title = Model.Name + "Branch";
+
+}
+
+<div class="container">
+    <div class="page-header clearfix" detailHeading>
+        <h2 class="text-muted">Branch Info</h2>
+
+    </div>
+    <div class="jumbotron">
+        <div class="row">
+            <img src="@Model.ImageUrl"/>
+        </div>
+        <div class="row branchInfo">
+            <div class="col-md-8">
+                <h2>@Model.Name</h2>
+                <div class="branchContact">
+                    <div id="branchAddress">Address: @Model.Address</div>
+                    <div id="branchTel">Phone: @Model.Phone</div>
+                </div>
+                <div class="branchDescription">
+                    <p class="caption">@Model.Description</p>
+
+                </div>
+
+                <div id="branchHours">
+                    <ul>
+                        @foreach (var day in Model.HoursOpen)
+                        {
+
+                        <li>@day</li>
+
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <table>
+                    <tr>
+                        <td class="itemLabel">Date Opened:</td>
+                        <td class="itemValue">@Model.OpenDate</td>
+                    </tr>
+                    <tr>
+                        <td class="itemLabel">Number of Users:</td>
+                        <td class="itemValue">@Model.NumberOfUsers</td>
+                    </tr>
+                    <tr>
+                        <td class="itemLabel">Number of Books:</td>
+                        <td class="itemValue">@Model.NumberOfBooks</td>
+                    </tr>
+                    <tr>
+                        <td class="itemLabel">Value of Books:</td>
+                        <td class="itemValue">$@Model.TotalBookValue</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

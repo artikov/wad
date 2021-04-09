@@ -29,6 +29,7 @@ namespace UniLibrary
             services.AddScoped<ILibraryBook, LibraryBookService>();
             services.AddScoped<ICheckout, CheckoutService>();
             services.AddScoped<IUser, UserServices>();
+            services.AddScoped<ILibraryBranch, LibraryBranchService>();
 
             services.AddDbContext<UniLibraryContext>(options 
                 => options.UseSqlServer(Configuration.GetConnectionString("UniLibraryConnection")));
